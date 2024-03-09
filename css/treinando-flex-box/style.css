@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main {
+  background-color: yellow;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.over {
+  width: 85%;
+  height: 35vh;
+  background-color: red;
+}
+
+.serv-item {
+  width: 85vw;
+  height: 55vh;
+  /* background-color: #0026ff; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.itens {
+  border: solid 2px #fff;
+  background-color: #000;
+  color: aliceblue;
+  text-align: center;
+  width: 25vw;
+  height: 100%;
+}
