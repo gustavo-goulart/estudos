@@ -8,9 +8,13 @@ if (idadeUsuario1 > idadeUsuario2) {
   alert(
     `Você ${nomeUsuario1} tem ${idadeUsuario1} anos, portanto é mais VELHO que, ${nomeUsuario2} que tem ${idadeUsuario2} anos.`
   );
-} else {
+} else if (idadeUsuario2 > idadeUsuario1) {
   alert(
     `Você ${nomeUsuario1} tem ${idadeUsuario1} anos, portanto é mais NOVO que, ${nomeUsuario2} que tem ${idadeUsuario2} anos.`
+  );
+} else {
+  alert(
+    `Você ${nomeUsuario1} tem ${idadeUsuario1} anos, e ${nomeUsuario2} também tem ${idadeUsuario2} anos.`
   );
 }
 
